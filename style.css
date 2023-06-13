@@ -250,19 +250,19 @@ img {
   55%,
   80%,
   100% {
-    transform: translate3d(-50%, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   40% {
-    transform: translate3d(-50%, -15px, 0);
+    transform: translate3d(0, -15px, 0);
   }
 
   70% {
-    transform: translate3d(-50%, -10px, 0);
+    transform: translate3d(0, -10px, 0);
   }
 
   90% {
-    transform: translate3d(-50%, -5px, 0);
+    transform: translate3d(0, -5px, 0);
   }
 }
 
