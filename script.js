@@ -5,7 +5,9 @@ $(document).ready(function() {
         let menuButton = $("button.navbar-toggler");
 
         $('html,body').animate({scrollTop: $(aid).offset().top - 60},'slow');
-        $(menuButton).trigger('click');
+        if ($(window).width() < 992) {
+          $(menuButton).trigger('click');
+        }
         
     });
 
